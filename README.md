@@ -1,6 +1,7 @@
 # SchoolLocker (Teil 1)
 
 ![.NET Core](https://github.com/jfuerlinger/csharp_samples_razorpages_schoollocker-part2-template/workflows/.NET%20Core/badge.svg)
+[![GitHub issues open](https://img.shields.io/github/issues/network-tools/shconfparser.svg)](https://github.com/jfuerlinger/csharp_samples_razorpages_schoollocker-part2-template/issues)
 
 ## Lernziele
 
