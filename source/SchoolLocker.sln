@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolLocker.Core", "SchoolLocker.Core\SchoolLocker.Core.csproj", "{29028966-6E55-4163-8329-1E0D43C55D63}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolLocker.Persistence", "SchoolLocker.Persistence\SchoolLocker.Persistence.csproj", "{263159BE-3F55-4CC2-9661-F1766BB6BD9E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolLocker.ImportConsole", "SchoolLocker.ImportConsole\SchoolLocker.ImportConsole.csproj", "{3ABC1124-2923-4AD0-9828-D2485D147B07}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolLocker.Web", "SchoolLocker.Web\SchoolLocker.Web.csproj", "{289490F1-6BD9-4EA9-8134-0748B88DBE82}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utils", "Utils\Utils.csproj", "{456F237A-C4DC-45D9-80DF-CAF2ED81545E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolLocker.AdminConsole", "SchoolLocker.AdminConsole\SchoolLocker.AdminConsole.csproj", "{B14CD037-EBAF-441F-BD90-54E2912ACA19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29028966-6E55-4163-8329-1E0D43C55D63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29028966-6E55-4163-8329-1E0D43C55D63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29028966-6E55-4163-8329-1E0D43C55D63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29028966-6E55-4163-8329-1E0D43C55D63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{263159BE-3F55-4CC2-9661-F1766BB6BD9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{263159BE-3F55-4CC2-9661-F1766BB6BD9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{263159BE-3F55-4CC2-9661-F1766BB6BD9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{263159BE-3F55-4CC2-9661-F1766BB6BD9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ABC1124-2923-4AD0-9828-D2485D147B07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ABC1124-2923-4AD0-9828-D2485D147B07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ABC1124-2923-4AD0-9828-D2485D147B07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ABC1124-2923-4AD0-9828-D2485D147B07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{289490F1-6BD9-4EA9-8134-0748B88DBE82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{289490F1-6BD9-4EA9-8134-0748B88DBE82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{289490F1-6BD9-4EA9-8134-0748B88DBE82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{289490F1-6BD9-4EA9-8134-0748B88DBE82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{456F237A-C4DC-45D9-80DF-CAF2ED81545E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{456F237A-C4DC-45D9-80DF-CAF2ED81545E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{456F237A-C4DC-45D9-80DF-CAF2ED81545E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{456F237A-C4DC-45D9-80DF-CAF2ED81545E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B14CD037-EBAF-441F-BD90-54E2912ACA19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B14CD037-EBAF-441F-BD90-54E2912ACA19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B14CD037-EBAF-441F-BD90-54E2912ACA19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B14CD037-EBAF-441F-BD90-54E2912ACA19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F693F89B-10CD-4D1D-A89E-3E6F255758CF}
+	EndGlobalSection
+EndGlobal

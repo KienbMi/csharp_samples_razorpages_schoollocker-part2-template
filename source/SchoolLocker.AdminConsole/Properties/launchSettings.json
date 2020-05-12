@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SchoolLocker.AdminConsole": {
+      "commandName": "Project",
+      "commandLineArgs": "CreateBooking -l 101 -p 1 -f 2018-01-01"
+    }
+  }
+}

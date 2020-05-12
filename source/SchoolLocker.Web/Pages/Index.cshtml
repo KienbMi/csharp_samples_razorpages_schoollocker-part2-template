@@ -1,0 +1,50 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Lockers Overview";
+}
+
+<h2>Lockers Overview</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th class="text-center col-md-1">
+                @Html.DisplayNameFor(model => model.SchoolLockerOverviewDtos[0].Locker.Number)
+            </th>
+            <th class="text-center col-md-1">
+                @Html.DisplayNameFor(model => model.SchoolLockerOverviewDtos[0].CountBookings)
+            </th>
+            <th class="text-center col-md-2">
+                @Html.DisplayNameFor(model => model.SchoolLockerOverviewDtos[0].From)
+            </th>
+            <th class="text-center col-md-2">
+                @Html.DisplayNameFor(model => model.SchoolLockerOverviewDtos[0].To)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.SchoolLockerOverviewDtos)
+        {
+            <tr>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.Locker.Number)
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.CountBookings)
+                </td>
+                <td class="text-center">
+                    @item.From.ToShortDateString()
+                </td>
+                <td class="text-center">
+                    @if (item.To != null)
+                    {
+                        @item.To.Value.ToShortDateString()
+                    }
+                </td>
+                <td></td>
+            </tr>
+        }
+    </tbody>
+</table>
