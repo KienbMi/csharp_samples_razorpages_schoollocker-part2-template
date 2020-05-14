@@ -70,7 +70,7 @@ Nach erfolgreicher Buchung ist wieder die Übersichtsseite aufzurufen.
 
 **Hinweis:** Diese oben dargestellten Validierungen können über simple Attribut-Validierungen der Properties des `Booking`-Objekts durchgeführt werden ohne Daten aus der Datenbank laden zu müssen.
 
-Schwieriger ist es Validierunge durchzuführen, welche bereits existierende Daten in der Datenbank berücksichtigen müssen. Z.B. ist für einen spezifischen Zeitpunkt bereits eine andere Buchung zu diesem Spint vorhanden. Dazu muss das Validierungsattribut Zugriff auf eine UnitOfWork besitzen.
+Schwieriger ist es Validierungen durchzuführen, welche bereits existierende Daten in der Datenbank berücksichtigen müssen. Z.B. ist für einen spezifischen Zeitpunkt bereits eine andere Buchung zu diesem Spint vorhanden. Dazu muss das Validierungsattribut Zugriff auf eine UnitOfWork besitzen.
 
 Im Template wurden diesbezüglich bereits Vorarbeiten geleistet - suchen sie nach `TODO:` Kommentaren.
 
