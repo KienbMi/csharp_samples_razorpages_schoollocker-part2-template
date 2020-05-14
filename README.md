@@ -1,4 +1,4 @@
-# SchoolLocker (Teil 1)
+# SchoolLocker (Teil 2)
 
 ![.NET Core](https://github.com/jfuerlinger/csharp_samples_razorpages_schoollocker-part2-template/workflows/.NET%20Core/badge.svg)
 [![GitHub issues open](https://img.shields.io/github/issues/network-tools/shconfparser.svg)](https://github.com/jfuerlinger/csharp_samples_razorpages_schoollocker-part2-template/issues)
@@ -67,6 +67,13 @@ Nach erfolgreicher Buchung ist wieder die Übersichtsseite aufzurufen.
 ### Bildschirmausgaben (Validierungen)
 
 ![Validierung1](images/04_validierung.png)
+
+**Hinweis:** Diese oben dargestellten Validierungen können über simple Attribut-Validierungen der Properties des `Booking`-Objekts durchgeführt werden ohne Daten aus der Datenbank laden zu müssen.
+
+Schwieriger ist es Validierunge durchzuführen, welche bereits existierende Daten in der Datenbank berücksichtigen müssen. Z.B. ist für einen spezifischen Zeitpunkt bereits eine andere Buchung zu diesem Spint vorhanden. Dazu muss das Validierungsattribut Zugriff auf eine UnitOfWork besitzen.
+
+Im Template wurden diesbezüglich bereits Vorarbeiten geleistet - suchen sie nach `TODO:` Kommentaren.
+
 
 ![Validierung1](images/05_validierung.png)
 

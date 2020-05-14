@@ -35,7 +35,7 @@
                     @Html.DisplayFor(modelItem => item.CountBookings)
                 </td>
                 <td class="text-center">
-                    @item.From.ToShortDateString()
+                    @item.From?.ToShortDateString()
                 </td>
                 <td class="text-center">
                     @if (item.To != null)

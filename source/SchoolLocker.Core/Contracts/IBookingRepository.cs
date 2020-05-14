@@ -1,4 +1,5 @@
-﻿using SchoolLocker.Core.Entities;
+﻿using SchoolLocker.Core.DataTransferObjects;
+using SchoolLocker.Core.Entities;
 using System;
 using System.Threading.Tasks;
 
@@ -10,6 +11,6 @@ namespace SchoolLocker.Core.Contracts
     Task AddRangeAsync(Booking[] bookings);
 
     Task<Booking> GetOverlappingBookingAsync(Booking booking);
-    Task<Booking[]> GetOverlappingBookingsAsync(int lockerNumber, DateTime @from, DateTime? to);
+    Task<BookingDto[]> GetOverlappingBookingsAsync(int lockerNumber, DateTime @from, DateTime? to);
   }
 }

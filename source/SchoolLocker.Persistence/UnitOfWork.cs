@@ -24,7 +24,7 @@ namespace SchoolLocker.Persistence
       LockerRepository = new LockerRepository(_dbContext);
       PupilRepository = new PupilRepository(_dbContext);
 
-      //TODO: Notwendige Services an die Validierungsattribute übergeben!
+      //TODO: Notwendige Services (UnitOfWork, etc.) an die Validierungsattribute übergeben!
       _overlapValidation = new OverlappingBookingValidation();
       _duplicateValidation = new DuplicateLockerValidation();
     }

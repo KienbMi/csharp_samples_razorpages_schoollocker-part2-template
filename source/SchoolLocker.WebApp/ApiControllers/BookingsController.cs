@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SchoolLocker.Core.Contracts;
+using SchoolLocker.Core.DataTransferObjects;
 using SchoolLocker.Core.Entities;
 using System;
 using System.Threading.Tasks;
@@ -30,7 +31,7 @@ namespace SchoolLocker.Web.ApiControllers
         [HttpGet("{lockerNumber, from, to}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public async Task<ActionResult<Booking[]>> GetOverlappingBookings(int lockerNumber, DateTime from, DateTime to)
+        public async Task<ActionResult<BookingDto[]>> GetOverlappingBookings(int lockerNumber, DateTime from, DateTime to)
         {
             if (await _unitOfWork
                     .LockerRepository
