@@ -93,6 +93,8 @@ Die Validierungen, aus der WebSite müssen auch identisch in der AdminConsole fu
 
 Die Parameterübergabe an die Admin Console ist im Template bereits umgesetzt (Hinweis: NuGet-Paket [CommandLineParser](https://www.nuget.org/packages/CommandLineParser/)).
 
+Sie können ihre Konsolenapplikation per `dotnet run` ([Dokumentation](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-run)) ausführen  oder sich per `dotnet publish` ([Dokumentation](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-publish)) eine exe-Datei erzeugen lassen.
+
 Implementieren Sie die geforderten Funktionen in Anlehnung an folgende Screenshots:
 
 1. Spint erstellen (Nr: 201) und Spints abfragen:
